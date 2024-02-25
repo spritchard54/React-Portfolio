@@ -1,0 +1,25 @@
+.header {
+    Color: white;
+    padding: 2%;
+    background-color: black; 
+    margin: 0;   
+
+}
+
+.header h1 {
+    display: inline;
+}
+
+.header ul {
+    float: right;
+    text-align: right;
+    font-size: 25px;
+    color: white;
+    margin: 0;   
+
+}
+
+.header ul li {
+    display: inline;
+    padding-left: 25px;
+}
