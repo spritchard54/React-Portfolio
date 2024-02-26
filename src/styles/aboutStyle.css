@@ -1,0 +1,22 @@
+h1 {
+    font-weight: bold;
+    margin: 25px;
+}
+
+p {
+    margin: 25px;
+    font-size: xx-large;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+img {
+    margin-left: 25px;
+    max-width: 25%;
+    max-height: 25%;
+    border-radius: 150px;
+    /* x y blur spead */
+    box-shadow: 7px 8px 10px;
+}

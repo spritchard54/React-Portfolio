@@ -9,8 +9,7 @@
     display: inline;
 }
 
-ul {
-    background-color: black;
+ul.nav {
     float: right;
     font-size: 25px;
     color: white;
@@ -18,7 +17,7 @@ ul {
 
 }
 
-li {
+li.nav {
     padding-top: 25px;
     color: white;
     display: inline-block;

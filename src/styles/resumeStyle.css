@@ -1,0 +1,35 @@
+.contactDetails {
+    margin: 25px 0px;
+    font-size: xx-large;
+}
+
+.resumeContent {
+    margin: 0px 100px 200px 100px;
+}
+
+p {
+    font-size: large;
+}
+
+ul.task {
+    background-color: white;
+    color: black;
+}
+
+li.task {
+    font-size: 20px;
+    list-style-type: circle;
+    color: black;
+    
+}
+
+p.role {
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 0;
+    margin: 10px 0px;
+}
+
+h3 {
+    margin: 20px 0px;
+}
