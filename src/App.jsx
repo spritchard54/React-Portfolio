@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
@@ -9,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <Container fluid>
+      
       <Row className="bg-black">
         <Col className="px-0 m-5">
           <Header />
@@ -17,12 +17,15 @@ function App() {
           <Navigation />
         </Col>
       </Row>
+
       <Row>
         <Outlet />
       </Row>
+     
       <Row>
         <Footer />
       </Row>
+
     </Container>
   );
 }

@@ -33,3 +33,8 @@ p.role {
 h3 {
     margin: 20px 0px;
 }
+
+img.dIcon {
+    max-width: 10%;
+    max-height: 10%;
+}

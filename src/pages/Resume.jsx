@@ -1,10 +1,17 @@
 import "../styles/resumeStyle.css";
+import dIcon from "../assets/docIcon.jpg";
 
 export default function Resume() {
   return (
     <div className="resumeBody">
       <h1>Resume</h1>
       <section className="resumeContent">
+        <section>
+            <img className="dIcon" src={dIcon} />
+          <a href="../assets/spResume.docx" download>
+          Resume Download
+          </a>
+        </section>
         <p className="contactDetails">
           Steven Pritchard Philadelphia, Pennsylvania • (570) 419-4077 •
           swpritchard54@gmail.com • linkedin.com/in/swpritchard
@@ -97,18 +104,17 @@ export default function Resume() {
         <h4>AT&T Mobility</h4>
         <p className="role">Retail Sales Consultant, Apr 2010 – May 2013</p>
         <ul className="task">
-        <li className="task">
-          Advised customers based on needs and current product marketing
-        </li>
-        <li className="task">
-          Maintained customer engagement and an extraordinary customer
-          experience
-        </li>
-        <li className="task">
-          Provided end-to-end customer service throughout the sales cycle
-        </li>
+          <li className="task">
+            Advised customers based on needs and current product marketing
+          </li>
+          <li className="task">
+            Maintained customer engagement and an extraordinary customer
+            experience
+          </li>
+          <li className="task">
+            Provided end-to-end customer service throughout the sales cycle
+          </li>
         </ul>
-
         <h3>EDUCATION</h3>
         <p>
           Indiana University of Pennsylvania Bachelor of Science –
