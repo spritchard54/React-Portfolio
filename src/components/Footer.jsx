@@ -1,5 +1,5 @@
 import "../styles/footerStyle.css";
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Footer() {
     return (

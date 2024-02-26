@@ -1,13 +1,23 @@
-import Header from "./components/header";
-import Footer from "./components/Footer"
-import { Container } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from "./components/Header";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+import { Container, Col, Row } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <Container fluid >
-      <Header />
+    <Container fluid>
+      <Row className="bg-black">
+        <Col className="px-0 m-5">
+          <Header />
+        </Col>
+        <Col className="px-0 m-5">
+          <Navigation />
+        </Col>
+      </Row>
+      <Row>
       <Footer />
+      </Row>
     </Container>
   );
 }
