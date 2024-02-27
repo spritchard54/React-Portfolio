@@ -4,8 +4,10 @@
 }
 
 .resumeContent {
-    margin: 0px 100px 200px 100px;
+    margin-bottom: 200px;
+    margin-left: 25px;
 }
+
 
 p {
     font-size: large;
@@ -38,4 +40,15 @@ img.dIcon {
     max-width: 10%;
     max-height: 10%;
 }
+
+ul.last {
+    margin-bottom: 100px;
+}
+
+ul li.pro {
+    display: block;
+    font-size: 25px;
+    
+}
+
 

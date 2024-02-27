@@ -1,10 +1,15 @@
 import "../styles/resumeStyle.css";
 import dIcon from "../assets/docIcon.jpg";
-
+import { Container, Col, Row } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Resume() {
   return (
+    
     <div className="resumeBody">
+      <Container fluid>
+        <Row>
+          <Col>
       <h1>Resume</h1>
       <section className="resumeContent">
         <section>
@@ -15,7 +20,6 @@ export default function Resume() {
           >
             Resume Download
           </a>
-          
         </section>
         <p className="contactDetails">
           Steven Pritchard Philadelphia, Pennsylvania • (570) 419-4077 •
@@ -143,6 +147,59 @@ export default function Resume() {
           Delivery, Video Production{" "}
         </p>
       </section>
+      </Col>
+      <Col>
+      <h1>
+        Front End Proficiencies
+        </h1>
+        <ul>
+          <li className="pro">
+            HTML
+          </li>
+          <li className="pro">
+            CSS
+          </li>
+          <li className="pro">
+            JavaScript
+          </li>
+          <li className="pro">
+            React
+          </li>
+          <li className="pro">
+            Bootstrap
+          </li>
+        </ul>
+      <h1>
+        Back End Proficiencies
+        </h1>
+        <ul className="last"> 
+          <li className="pro">
+            APIs
+          </li>
+          <li className="pro">
+            Node
+          </li>
+          <li className="pro">
+            Express
+          </li>
+          <li className="pro">
+            mySQL, Sequelize
+          </li>
+          <li className="pro">
+            MongoDB, Mongoose
+          </li>
+          <li className="pro">
+            REST
+          </li>
+          <li className="pro">
+            GraphQL
+          </li>
+        </ul>
+      
+      </Col>
+      </Row>
+      </Container>
     </div>
+    
   );
 }
