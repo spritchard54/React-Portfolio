@@ -1,16 +1,21 @@
 import "../styles/resumeStyle.css";
 import dIcon from "../assets/docIcon.jpg";
 
+
 export default function Resume() {
   return (
     <div className="resumeBody">
       <h1>Resume</h1>
       <section className="resumeContent">
         <section>
-            <img className="dIcon" src={dIcon} />
-          <a href="../assets/spResume.docx" download>
-          Resume Download
+          <img className="dIcon" src={dIcon} />
+          <a target="blank" className="dLink"
+            href="https://drive.google.com/file/d/1lQ-psTnZwRmZS4_l-OmCTIqp6yTMQqQa/view?usp=sharing"
+            download
+          >
+            Resume Download
           </a>
+          
         </section>
         <p className="contactDetails">
           Steven Pritchard Philadelphia, Pennsylvania • (570) 419-4077 •

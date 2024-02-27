@@ -9,11 +9,11 @@ function App() {
   return (
     <Container fluid>
       
-      <Row className="bg-black">
-        <Col className="px-0 m-5">
+      <Row className="text-bg-secondary">
+        <Col className="  px-0 m-5">
           <Header />
         </Col>
-        <Col className="px-0 m-5">
+        <Col className="  px-0 m-5">
           <Navigation />
         </Col>
       </Row>

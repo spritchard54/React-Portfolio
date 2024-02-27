@@ -9,7 +9,9 @@ p {
 }
 
 ul li {
-    margin-bottom: 10px;
+
+    display: inline;
+    padding-right: 25px;
 }
 
 img.pPic {

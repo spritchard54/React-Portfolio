@@ -2,8 +2,17 @@
     Color: white;
     padding: 2%;
     margin: 0;   
-
 }
+
+/* @media screen and (min-width: 1024px){
+    .fixed-top{
+        height: 200px;
+    }
+    div.fixed-top {
+        width: 100%;
+        background-color: red;
+    }
+} */
 
 .header h1 {
     display: inline;
@@ -25,3 +34,9 @@ li.nav {
     list-style-type: none;
     
 }
+
+.nav-link {
+    color: aquamarine !important;
+}
+
+
